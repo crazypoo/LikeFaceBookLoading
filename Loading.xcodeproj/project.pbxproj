@@ -21,6 +21,7 @@
 		CCF6BFDA187B997300E9F51D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF6BFBC187B997300E9F51D /* UIKit.framework */; };
 		CCF6BFE2187B997300E9F51D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCF6BFE0187B997300E9F51D /* InfoPlist.strings */; };
 		CCF6BFE4187B997300E9F51D /* LoadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF6BFE3187B997300E9F51D /* LoadingTests.m */; };
+		CCF6BFEF187B99A400E9F51D /* PooLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF6BFEE187B99A400E9F51D /* PooLoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CCF6BFDF187B997300E9F51D /* LoadingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoadingTests-Info.plist"; sourceTree = "<group>"; };
 		CCF6BFE1187B997300E9F51D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCF6BFE3187B997300E9F51D /* LoadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingTests.m; sourceTree = "<group>"; };
+		CCF6BFED187B99A400E9F51D /* PooLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PooLoadingView.h; sourceTree = "<group>"; };
+		CCF6BFEE187B99A400E9F51D /* PooLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PooLoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		CCF6BFAC187B997300E9F51D = {
 			isa = PBXGroup;
 			children = (
+				CCF6BFED187B99A400E9F51D /* PooLoadingView.h */,
+				CCF6BFEE187B99A400E9F51D /* PooLoadingView.m */,
 				CCF6BFBE187B997300E9F51D /* Loading */,
 				CCF6BFDD187B997300E9F51D /* LoadingTests */,
 				CCF6BFB7187B997300E9F51D /* Frameworks */,
@@ -251,6 +256,7 @@
 			files = (
 				CCF6BFCF187B997300E9F51D /* ViewController.m in Sources */,
 				CCF6BFC9187B997300E9F51D /* AppDelegate.m in Sources */,
+				CCF6BFEF187B99A400E9F51D /* PooLoadingView.m in Sources */,
 				CCF6BFC5187B997300E9F51D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
